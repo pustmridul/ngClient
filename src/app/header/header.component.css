@@ -12,6 +12,9 @@ a:hover, a:active{
     padding: 0;
     margin: 0;
 }
+.menu_bg{
+    background-color: rgb(89, 99, 236);
+}
 
 mat-toolbar{
     border-radius: 3px;
