@@ -1,0 +1,11 @@
+.social-media li a {
+  margin-right: 16px;
+  width: 22px;
+  display: block;
+  text-align: left;
+
+}
+.social-media ul li{
+  text-decoration: none;
+  list-style: none;
+}

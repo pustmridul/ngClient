@@ -1,11 +1,21 @@
-mat-sidenav-container, mat-sidenav-content, mat-sidenav {
-    height: 100%;
+.menu-spacer {
+  flex: 1 1 auto;
 }
-
-mat-sidenav {
-    width: 250px;
+.main_menu{
+  height: 50px;
 }
-
-main {
-    padding: 10px;
+.main_menu_mid{
+  width: 60%;
+  float: left;
+  height: 50px;
+}
+.main_menu_rt{
+  width: 20%;
+  float: left;
+  height: 50px;
+}
+.main_menu_lt{
+  width: 20%;
+  float: left;
+  height: 50px;
 }

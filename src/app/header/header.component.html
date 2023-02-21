@@ -5,16 +5,27 @@
         </button>
     </div>
     <div>
-        <a routerLink="/home">Owner-Account</a>
+      <img src="../../assets/i/EngoTalkLogo.png" class="logo" style="padding: 3px; height: 30px; width: 100px;">
+
     </div>
     <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
-        <ul fxLayout fxLayoutGap="15px" class="navigation-items">
-            <li>
-                <a routerLink="/owner">Owner Actions</a>
-            </li>
-            <li>
-                <a routerLink="/account">Account Actions</a>
-            </li>
-        </ul>
+      <div class="col-md-8">
+        <button mat-stroked-button [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</button>
+        <button mat-stroked-button>IELTS</button>
+        <button mat-stroked-button>University Info</button>
+        <button mat-stroked-button>Exam Library</button>
+        <button mat-stroked-button>Our Classes</button>
+        <button mat-stroked-button>Teacher</button>
+        <button mat-stroked-button>Pro Student</button>
+      </div>
+      <div class="col-md-2">
+        <button mat-stroked-button routerLink="login">Login</button>
+        <button mat-stroked-button>Sign Up</button>
+      </div>
+      <div class="col-md-2">
+        <marquee>Engotalk | {{date}}</marquee>
+      </div>
     </div>
+
+
   </mat-toolbar>
